@@ -6,11 +6,14 @@ Plataforma web responsiva para busca, comparação de preços, gestão de favori
 * [Product Requirements Document (PRD)](docs/prd.md)
 * [Especificação Técnica (Architecture)](docs/architecture.md)
 
-## 💻 Tecnologias Utilizadas
-* **HTML5 & CSS3 / SCSS**
-* **Materialize CSS** (Framework CSS)
-* **JavaScript / jQuery**
-* **JSON Server** (API REST Fake)
+## 💻 Tecnologias e Dependências
+
+### Framework CSS: Materialize CSS (v1.0.0)
+Escolhi o **Materialize CSS** porque ele deixa o visual bem moderno no estilo dos aplicativos do Google. Ele já vem com componentes prontos que usei no protótipo, como os cards dos hotéis, botões e janelas modais, além de deixar a página responsiva para celular e computador.
+
+### APIs Públicas
+* **ViaCEP:** Para buscar e preencher o endereço automaticamente quando o usuário digitar o CEP na tela de cadastro.
+* **OpenWeatherMap:** Para mostrar a temperatura atual da cidade onde o hotel está localizado.
 
 ---
 
